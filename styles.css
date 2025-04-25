@@ -7,12 +7,12 @@ body {
     color: navy;
   }
   
-  p span {
-    color: darkgreen;
-  }
-  
   ul li, ol li {
     margin-bottom: 5px;
+  }
+  
+  p span {
+    color: darkgreen;
   }
   
   header nav ul li {
@@ -23,6 +23,7 @@ body {
   table {
     width: 100%;
     border-collapse: collapse;
+    margin-bottom: 40px; 
   }
   
   table, th, td {
@@ -36,7 +37,7 @@ body {
     margin: 0;
     display: flex;
     justify-content: left; 
-    gap: 20px; 
+    gap: 20px;
   }
   
   .footer-nav li a {
@@ -47,6 +48,18 @@ body {
   .footer-nav li a:hover {
     text-decoration: underline;
   }
-  table {
+  
+  .contenido-about {
     margin-bottom: 40px;
   }
+  
+  #proyectos {
+    background-color: #f9f9f9;
+    padding: 10px;
+  }
+  
+  .titulo-seccion {
+    font-size: 24px;
+    text-decoration: underline;
+  }
+  
