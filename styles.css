@@ -35,8 +35,8 @@ body {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center; /* centra el contenido */
-    gap: 20px; /* espacio entre los enlaces */
+    justify-content: left; 
+    gap: 20px; 
   }
   
   .footer-nav li a {
@@ -46,4 +46,7 @@ body {
   
   .footer-nav li a:hover {
     text-decoration: underline;
+  }
+  table {
+    margin-bottom: 40px;
   }
